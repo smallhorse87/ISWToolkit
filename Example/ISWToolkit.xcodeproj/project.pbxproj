@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29BA6F037B1CFC8EF2ECB4B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29BA6F037B1CFC8EF2ECB4B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B9A3C3564B8D788F0FDF25D /* Pods_ISWToolkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISWToolkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6C84D4EE33FFD3704EADCE /* Pods-ISWToolkit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWToolkit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISWToolkit_Tests/Pods-ISWToolkit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		50780485FD00DF4946FE6A59 /* Pods_ISWToolkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISWToolkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50D37491BCACC1F0956C9A1A /* ISWToolkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ISWToolkit.podspec; path = ../ISWToolkit.podspec; sourceTree = "<group>"; };
+		50D37491BCACC1F0956C9A1A /* ISWToolkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ISWToolkit.podspec; path = ../ISWToolkit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ISWToolkit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISWToolkit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		7A12694F9A865AC56228F013 /* Pods-ISWToolkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWToolkit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISWToolkit_Tests/Pods-ISWToolkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D5BBDD7430BF0B9EA5EBBBA /* Pods-ISWToolkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWToolkit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISWToolkit_Example/Pods-ISWToolkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A68C8BD838E99D776810FD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A68C8BD838E99D776810FD6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B1B7F3E1DCCA6F202A02B237 /* Pods-ISWToolkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWToolkit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISWToolkit_Example/Pods-ISWToolkit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
