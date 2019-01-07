@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISWToolkit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '开发这么多年也就留下这些精华了ISWToolkit.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'smallhorse87' => 'smallhorse87@163.com' }
-  s.source           = { :git => 'https://github.com/smallhorse87/ISWToolkit/ISWToolkit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/smallhorse87/ISWToolkit', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
