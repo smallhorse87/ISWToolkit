@@ -1,0 +1,6 @@
+framework module ISWToolkit {
+  umbrella header "ISWToolkit-umbrella.h"
+
+  export *
+  module * { export * }
+}

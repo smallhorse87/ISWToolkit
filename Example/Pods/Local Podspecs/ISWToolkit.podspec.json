@@ -1,0 +1,22 @@
+{
+  "name": "ISWToolkit",
+  "version": "0.1.0",
+  "summary": "A short description of ISWToolkit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bodimall@163.com/ISWToolkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bodimall@163.com": "smallhorse87@163.com"
+  },
+  "source": {
+    "git": "https://github.com/bodimall@163.com/ISWToolkit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ISWToolkit/Classes/**/*"
+}
