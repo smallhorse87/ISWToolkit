@@ -31,12 +31,28 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ISWToolkit/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'ISWToolkit' => ['ISWToolkit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh'
+  s.dependency 'LCActionSheet'
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'DRPLoadingSpinner'
+  s.dependency 'JKCountDownButton'
+  s.dependency 'SDCycleScrollView', '~> 1.65'
+  s.dependency 'SDWebImage', '~> 3.7.6'
+  s.dependency 'MBProgressHUD'
+
+  non_arc_files = "ISWToolkit/Classes/OpenUDID/*.{h,m}"
+  s.exclude_files = non_arc_files
+
+  s.subspec 'no-arc' do |sp|
+   sp.requires_arc = false
+   sp.source_files = non_arc_files
+  end
+
 end
